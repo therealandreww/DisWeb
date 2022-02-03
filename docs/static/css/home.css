@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.header {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+.header div:nth-child(1)    {font-size: 40px;}
+.header div:nth-child(2)    {font-size: 17px;}
