@@ -1,0 +1,32 @@
+name: Documentation
+description: Create improvements to documentation
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for trying your best to improve the documentation for DisWeb.
+
+  - type: dropdown
+    attributes:
+      label: Documentation Report Type
+      description: The type of the documentation you are willing to improve.
+      options:
+        - Whole Documentation
+        - Parts of Documentation
+    validations:
+      required: true
+  
+  - type: input
+    attributes:
+      label: Link to Parts to Improve
+      description: Share a link of the documentation, which is the part of the documentation you want to edit.
+    validations:
+      required: true
+  
+  - type: textarea
+    attributes:
+      label: Edit Contribution
+      description: Copy the contents of the documentation, then make changes.
+    validations:
+      required: true
