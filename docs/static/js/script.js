@@ -41,3 +41,5 @@ const getConfig = () => {
         http_langconfig = null;
     }
 };
+
+getConfig();
