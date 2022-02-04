@@ -2,47 +2,47 @@ name: Bug Report
 description: Report bugs on DisWeb
 labels: ["bug"]
 body:
-	- type: markdown
-		attributes:
-			value: |
-				Thanks for taking the time to report a new bug in DisWeb!
-	
-	- type: dropdown
-		id: type
-		attributes:
-			label: Severity
-			description: How severe is the bug?
-			options:
-				- Small issue
-				- Medium issue
-				- Max severity, severe
-		validations:
-			required: true
-	
-	- type: textarea
-		id: behavior
-		attributes:
-			label: What does the bug do? Describe its behavior.
-		validations:
-			required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a new bug in DisWeb!
+  
+  - type: dropdown
+    id: type
+    attributes:
+      label: Severity
+      description: How severe is the bug?
+      options:
+        - Small issue
+        - Medium issue
+        - Max severity, severe
+    validations:
+      required: true
+  
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What does the bug do? Describe its behavior.
+    validations:
+      required: true
 
-	- type: textarea
-		id: producesteps
-		attributes:
-			label: How can you reproduce the issue or bug?
-		validations:
-			required: true
-	
-	- type: input
-		id: usersuggestedname
-		attributes:
-			label: How should we call you? Recommended to use a GitHub username to get replies of this bug.
-			description: "Not required. Useful if you want to get replies."
-		validations:
-			required: false
-	
-	- type: textarea
-		id: otherinformation
-		attributes:
-			label: "Other Information"
-			description: "Other information you want to include with the submittion."
+  - type: textarea
+    id: producesteps
+    attributes:
+      label: How can you reproduce the issue or bug?
+    validations:
+      required: true
+  
+  - type: input
+    id: usersuggestedname
+    attributes:
+      label: How should we call you? Recommended to use a GitHub username to get replies of this bug.
+      description: "Not required. Useful if you want to get replies."
+    validations:
+      required: false
+  
+  - type: textarea
+    id: otherinformation
+    attributes:
+      label: "Other Information"
+      description: "Other information you want to include with the submittion."
