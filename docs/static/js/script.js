@@ -11,6 +11,7 @@ const getConfig = () => {
         let http_letsencrypt;
         let http_encryptsignature;
 
+        http_reactor = 'STATIC/Html'
         http_letsencrypt = 'MODEL_HTTP/Html';
         http_encryptsignature = 'MODEL/gdata.get';
         http_app = http_letsencrypt.length;
@@ -22,9 +23,21 @@ const getConfig = () => {
             http_letsencrypt,
             http_encryptsignature
         ];
+        return data;
     };
 
     config_get = 'HTTP/202';
 
-    HttpConfig();
+    configurations = HttpConfig();
+    const http_data_reactor = configurations[0];
+
+
+    // Build configurations
+    let http_langconfig;
+
+    if (http_data_reactor == 'STATIC/Html') {
+        http_langconfig = 'enus';
+    }   else    {
+        http_langconfig = null;
+    }
 };
