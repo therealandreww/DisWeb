@@ -1,1 +1,9 @@
 mode: "y.configurations.git"
+httpconfig:
+  mode: "http.mode.config"
+
+  - type: httpconfig
+    attr:
+      configtype: "HTTPS/200"
+      statuserror: "HTTP/404"
+      statussecure: "letsencrypt.sig"
