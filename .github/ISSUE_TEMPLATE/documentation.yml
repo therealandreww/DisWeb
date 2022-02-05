@@ -30,3 +30,10 @@ body:
       description: Copy the contents of the documentation, then make changes.
     validations:
       required: true
+  
+  - type: input
+    attributes:
+      label: GitHub Username
+      description: Enter your GitHub username to get replies.
+    validations:
+      required: true
