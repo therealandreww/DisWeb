@@ -5,5 +5,5 @@
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
 }
-.header div:nth-child(1)    {font-size: 40px;}
-.header div:nth-child(2)    {font-size: 17px;}
+.header div:nth-child(1)    {font-size: 40px; font-weight: bold;}
+.header div:nth-child(2)    {font-size: 17px; font-weight: bold;}
