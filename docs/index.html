@@ -17,7 +17,7 @@
                 if (reqType == "HTTP/202"){type = "accepted";}
                 if (reqType == "HTTPS/202"){type = "accepted/HTTPS";}
                 if (reqType == "HTTP/200"){type = "OK";}
-                
+
                 const getHttpGet = (keypair) => {
                     if (keypair != null)    {
                         const config = {
@@ -33,7 +33,7 @@
             };
             // Get system metrics: Get system information (key/keypress)
             let getSystemMetrics = httpConfigurations("HTTPS/200");
-            let sysPrepGet = getSystemMetrics.name;
+            let configuratorLang = "HTTPS/200";
         </script>
     </body>
 </html>
