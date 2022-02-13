@@ -24,7 +24,7 @@ body    {background-color: black; color: white;}
 .header div:nth-child(1)    {font-size: 40px; font-weight: bold;}
 .header div:nth-child(2)    {font-size: 17px; font-weight: bold;}
 
-.namespace-title    {font-family: 'Montserrat', sans-serif; font-size: 24.54px; font-weight: bold;}
+.namespace-title    {font-family: 'Montserrat', sans-serif; font-size: 24.54px; font-weight: bold; line-height: 50px; text-align: center;}
 .responsive-row {display: flex; justify-content: space-around;}
 @media screen and (max-width: 500px){.responsive-row{flex-direction: column;}}
 @media screen and (min-width: 500px){.responsive-row{flex-direction: row;}}
