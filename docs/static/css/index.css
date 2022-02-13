@@ -15,5 +15,5 @@
 .responsive-row {display: flex; justify-content: space-around;}
 @media screen and (max-width: 500px){.responsive-row{flex-direction: column;}}
 @media screen and (min-width: 500px){.responsive-row{flex-direction: row;}}
-.row-item div:nth-child(1)  {font-size: 20px; font-weight: bold;}
-.row-item div:nth-child(2)  {font-size: 15.5px;}
+.row-item div:nth-child(1)  {font-size: 20px; font-weight: bold; font-family: 'Montserrat', sans-serif;}
+.row-item div:nth-child(2)  {font-size: 15.5px; font-family: 'Montserrat', sans-serif;}
