@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+/* 
+    * Official DisWeb stylesheet
+    
+    * Other uses of this stylesheet are not allowed.
+
+    * This site is deployed using GitHub Pages.
+      Anyone should not try to tamper with DisWeb.
+
+    The following code is minified.
+*/
+
+body    {background-color: black; color: white;}
+
 .header {
     display: flex;
     flex-direction: column;
