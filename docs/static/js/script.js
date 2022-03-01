@@ -32,7 +32,7 @@ const getConfig = () => {
     const http_data_reactor = configurations[0];
 
 
-    // Build configurations
+    // Build configurations for JavaScript
     let http_langconfig;
 
     if (http_data_reactor == 'STATIC/Html') {
@@ -40,6 +40,11 @@ const getConfig = () => {
     }   else    {
         http_langconfig = null;
     }
+
+    const pluginData = {
+        data: "constnolog"
+    };
+    // Configure plugins
 };
 
 getConfig();
