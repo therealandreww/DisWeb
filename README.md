@@ -9,3 +9,4 @@ This version, v0.2 contains these improvements:
 - Improved UI
 - Dark mode support
 - Support for HTTPS request handling (backend, JavaScript)
+- Added Twitter button
