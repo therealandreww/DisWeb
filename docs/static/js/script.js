@@ -48,3 +48,8 @@ const getConfig = () => {
 };
 
 getConfig();
+
+////////////////////////////////
+function toggleDarkMode()   {
+    document.body.classList.toggle("sys-darkmode");
+}

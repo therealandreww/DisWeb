@@ -12,7 +12,7 @@ function addConfiguration(configtype,
     if (configtype == "HTTPS") {
         return {type: "HTTPS/200", configmsg: [configmethod, mergestatus, httpConfig]};
     }   else if (configtype == "HTTP")  {
-        return {type: "HTTP/HTML", returnmsg: "Only users using HTTPS secure protocol can have access to this website."}
+        return {type: "HTTP/HTML", returnmsg: "<div>Only users using HTTPS secure protocol can have access to this website.</div>"}
     }
 }
 
