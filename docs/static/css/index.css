@@ -42,7 +42,7 @@ body    {background-color: white; color: black; font-weight: bold;}  /* Enable d
     align-items: left;
 }
 
-.navbar .navbtn {transition-duration: 0.3s; width: 40px; background: linear-gradient(120deg, rgb(133, 18, 228), rgb(228, 9, 217)); height: 40px; border-radius: 20px; text-align: center; line-height: 40px; color: white; cursor: pointer; user-select: none; -webkit-user-select: none;}
+.navbar .navbtn {transition-duration: 0.3s; width: 40px; background: linear-gradient(120deg, rgb(133, 18, 228), rgb(228, 9, 217)); height: 40px; border-radius: 20px; text-align: center; line-height: 40px; color: white; cursor: default; user-select: none; -webkit-user-select: none;}
 .navbar .navbtn span{display: none; font-family: 'Montserrat', sans-serif; font-weight: bold; text-transform: uppercase; color: white;}
 .navbar .navbtn i{display: inline-block;}
 .navbar .navbtn:hover span{display: inline-block;}
