@@ -8,7 +8,11 @@ const getConfig = () => {
         let http_reactor;
         let http_const;
         let http_app;
-        let http_letsencrypt;
+        let http_letsencrypt = [
+            {
+                constconfig: "letsencrypt"
+            }
+        ];
         let http_encryptsignature;
 
         http_reactor = 'STATIC/Html'
