@@ -1,0 +1,13 @@
+letencrypt:
+  structure:
+    encryptssh: "sha-234"
+    sshconnect: "HTTPS/200"
+    pagesconst: "pages.github.com"
+    codekey: "letsencrypt.com/api/1r48ujfjk"
+    cloudflareapi: "cloudflare.com"
+letsencrypt2022:
+  officialdoc:
+    officialdocumentation: "OFFICIAL"
+    officialdocsbool: "yes"
+  documentationbool:
+    constboolreturn: "yes"
